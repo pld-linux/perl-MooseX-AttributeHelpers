@@ -8,13 +8,13 @@
 Summary:	MooseX::AttributeHelpers - Extend your attribute interfaces
 #Summary(pl.UTF-8):	
 Name:		perl-MooseX-AttributeHelpers
-Version:	0.14
+Version:	0.21
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/MooseX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6f8589c9f8b246bb6ebff245a274b62b
+# Source0-md5:	991e3217572bde0e8d9731442fd7879d
 # generic URL, check or change before uncommenting
 #URL:		http://search.cpan.org/dist/MooseX-AttributeHelpers/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -33,8 +33,6 @@ used attribute helper methods for more specific types of data.
 
 As seen in the /SYNOPSIS, you specify the extension via the 
 metaclass parameter. Available meta classes are:
-
-
 
 # %description -l pl.UTF-8
 # TODO
