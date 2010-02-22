@@ -8,15 +8,14 @@
 Summary:	MooseX::AttributeHelpers - Extend your attribute interfaces
 #Summary(pl.UTF-8):	
 Name:		perl-MooseX-AttributeHelpers
-Version:	0.21
+Version:	0.23
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	991e3217572bde0e8d9731442fd7879d
-# generic URL, check or change before uncommenting
-#URL:		http://search.cpan.org/dist/MooseX-AttributeHelpers/
+Source0:        http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	ebdd543a211884854b6c87adf25e6e22
+URL:		http://search.cpan.org/dist/MooseX-AttributeHelpers/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
