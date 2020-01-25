@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	MooseX
 %define	pnam	AttributeHelpers
 Summary:	MooseX::AttributeHelpers - Extend your attribute interfaces
