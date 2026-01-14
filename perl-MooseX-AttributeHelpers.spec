@@ -8,7 +8,7 @@ Summary:	MooseX::AttributeHelpers - Extend your attribute interfaces
 #Summary(pl.UTF-8):	
 Name:		perl-MooseX-AttributeHelpers
 Version:	0.23
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
